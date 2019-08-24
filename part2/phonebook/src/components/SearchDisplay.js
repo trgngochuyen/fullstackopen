@@ -16,7 +16,6 @@ const SearchDisplay = ({persons, newSearch, setPersons}) => {
         })}
             return null
         }
-    
     return (
         <div>{displayPersons.map(person => <p key={person.name} id={person.name}>{person.name} {person.number}  <button id={person.id} key={person.name} onClick={handleDel}>Delete</button></p>)
             }</div>

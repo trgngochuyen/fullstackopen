@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.redMessage {
+  color: rgb(143, 42, 24);
+  background: rgb(231, 153, 134);
+  font-size: 18px;
+  border-style: solid;
+  border-radius: 2px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.greenMessage {
+  color: rgb(52, 128, 36);
+  background: rgb(212, 236, 227);
+  font-size: 18px;
+  border-style: solid;
+  border-radius: 2px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
